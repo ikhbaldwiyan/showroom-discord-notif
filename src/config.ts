@@ -16,7 +16,7 @@ const config: ShowroomWatcherOptions = {
     no_activity_refresh: 60000
   },
   discord: {
-    channel_name: '🔔︱live-notification', // if NODE_ENV=development channel name will be suffixed with "-dev"
+    channel_name: '⌛︱sr-live-log', // if NODE_ENV=development channel name will be suffixed with "-dev"
     specific_guilds: []
   },
   message: {
